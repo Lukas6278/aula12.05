@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS todos (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(155),
+    is_checked BOOLEAN DEFAULT FALSE
+);
